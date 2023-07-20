@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(194, 245, 203);
+  padding: 1rem;
+}
+header h1 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+nav {
+  background-color: rgb(255, 255, 255);
+}
+nav .logonavimg {
+  height: 3rem;
+}
+nav a:hover {
+  font-size: larger;
+}
+
+main {
+  background-color: rgba(158, 143, 243, 0.74);
+  height: 80%;
+}
+
+#inicio {
+  background-image: url(../../assets/verduras.jpg);
+  height: 25rem;
+  background-size: cover;
+  background-position: center;
+}
+#inicio .iniciotexto {
+  margin: 2rem;
+  padding: 2rem;
+  color: rgb(0, 0, 0);
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.631);
+}
+
+#galeria {
+  height: 80%;
+}
+
+#nosotros div #nosotrosimguno {
+  background-image: url(../../assets/flornaran.JPG);
+  height: 15rem;
+  background-size: cover;
+  background-position: center;
+}
+#nosotros div #nosotrosimgdos {
+  height: 15rem;
+  background-image: url(../../assets/manojoverduras.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#contacto {
+  height: 80%;
+  padding-left: 3rem;
+  padding-top: 3rem;
+}
+#contacto div div {
+  align-items: center;
+}
+#contacto div div iframe {
+  height: 80%;
+  width: 80%;
+}
+
+#productos {
+  height: 80%;
+}
+#productos h2 {
+  text-align: center;
+  color: rgb(22, 2, 41);
+}
+#productos #productos-aviso {
+  margin-top: 1rem;
+  align-items: center;
+}
+
+footer {
+  background-color: rgb(22, 2, 41);
+}
+footer a {
+  font-size: 1.5rem;
+}
+footer a:hover {
+  font-size: larger;
+}
+footer i {
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */

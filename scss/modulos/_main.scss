@@ -1,0 +1,68 @@
+main {
+    background-color: $colormain;
+    height: 80%;
+}
+
+#inicio {
+    background-image: url(../../assets/verduras.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+
+    .iniciotexto {
+        margin: 2rem;
+        padding: 2rem;
+        color: $color1;
+        border-radius: 1rem;
+        background-color: $colorinicio;
+    }
+}
+
+#galeria{
+    height: 80%;
+}
+
+#nosotros {
+    div {
+        #nosotrosimguno {
+            background-image: url(../../assets/flornaran.JPG);
+            height: 15rem;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #nosotrosimgdos {
+            height: 15rem;
+            background-image: url(../../assets/manojoverduras.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    }
+}
+
+#contacto {
+    height: 80%;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    div {
+        div {
+            align-items: center;
+            iframe {
+                height: 80%;
+                width: 80%;
+            }
+        }
+    }
+}
+
+#productos {
+    height: 80%;
+    h2 {
+        text-align: center;
+        color: $colorfooter;
+    }
+    #productos-aviso {
+        margin-top: 1rem;
+        align-items: center;
+    }
+}

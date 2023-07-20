@@ -1,0 +1,12 @@
+footer{
+    background-color: $colorfooter;
+    a{
+        font-size: 1.5rem;
+        &:hover{
+            font-size: larger;
+        }
+    }
+    i{
+        font-size: 1.5rem;
+    }
+}
