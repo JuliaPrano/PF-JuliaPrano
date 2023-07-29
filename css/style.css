@@ -24,10 +24,10 @@ nav div a:hover {
 }
 nav div form .boton {
   color: rgb(255, 255, 255);
-  background-color: rgb(118, 32, 199);
+  background-color: rgb(125, 42, 202);
 }
 nav div form .boton:hover {
-  color: rgb(118, 32, 199);
+  color: rgb(125, 42, 202);
   background-color: rgb(255, 255, 255);
 }
 
@@ -93,10 +93,10 @@ main {
 }
 #productos #productos-aviso div a {
   color: rgb(255, 255, 255);
-  background-color: rgb(118, 32, 199);
+  background-color: rgb(125, 42, 202);
 }
 #productos #productos-aviso div a:hover {
-  color: rgb(118, 32, 199);
+  color: rgb(125, 42, 202);
   background-color: rgb(255, 255, 255);
 }
 
