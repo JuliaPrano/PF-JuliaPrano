@@ -11,12 +11,24 @@ header{
 }
 nav{
     background-color: $colornav;
-    .logonavimg{
-        height: 3rem;
-    }
-    a{
-        &:hover{
-            font-size: larger;
+    div{
+        .logonavimg{
+            height: 3rem;
+        }
+        a{
+            &:hover{
+                font-size: larger;
+            }
+        }
+        form{
+            .boton{
+                color: $color2;
+                background-color: $colorboton;
+                &:hover{
+                    color: $colorboton;
+                    background-color: $color2;  
+                }
+            }
         }
     }
 }

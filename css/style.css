@@ -16,11 +16,19 @@ header h1 a {
 nav {
   background-color: rgb(255, 255, 255);
 }
-nav .logonavimg {
+nav div .logonavimg {
   height: 3rem;
 }
-nav a:hover {
+nav div a:hover {
   font-size: larger;
+}
+nav div form .boton {
+  color: rgb(255, 255, 255);
+  background-color: rgb(118, 32, 199);
+}
+nav div form .boton:hover {
+  color: rgb(118, 32, 199);
+  background-color: rgb(255, 255, 255);
 }
 
 main {
@@ -29,7 +37,7 @@ main {
 }
 
 #inicio {
-  background-image: url(../../assets/DSC_0071.JPG);
+  background-image: url(../assets/DSC_0071.JPG);
   height: 30rem;
   background-size: cover;
   background-position: center;
@@ -47,14 +55,14 @@ main {
 }
 
 #nosotros div #nosotrosimguno {
-  background-image: url(../../assets/flornaran.webp);
+  background-image: url(../assets/flornaran.webp);
   height: 15rem;
   background-size: cover;
   background-position: center;
 }
 #nosotros div #nosotrosimgdos {
   height: 15rem;
-  background-image: url(../../assets/manojoverduras.jpg);
+  background-image: url(../assets/manojoverduras.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -82,6 +90,14 @@ main {
 #productos #productos-aviso {
   margin-top: 1rem;
   align-items: center;
+}
+#productos #productos-aviso div a {
+  color: rgb(255, 255, 255);
+  background-color: rgb(118, 32, 199);
+}
+#productos #productos-aviso div a:hover {
+  color: rgb(118, 32, 199);
+  background-color: rgb(255, 255, 255);
 }
 
 footer {

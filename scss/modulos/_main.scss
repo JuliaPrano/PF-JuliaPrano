@@ -4,7 +4,7 @@ main {
 }
 
 #inicio {
-    background-image: url(../../assets/DSC_0071.JPG);
+    background-image: url(../assets/DSC_0071.JPG);
     height: 30rem;
     background-size: cover;
     background-position: center;
@@ -25,7 +25,7 @@ main {
 #nosotros {
     div {
         #nosotrosimguno {
-            background-image: url(../../assets/flornaran.webp);
+            background-image: url(../assets/flornaran.webp);
             height: 15rem;
             background-size: cover;
             background-position: center;
@@ -33,7 +33,7 @@ main {
 
         #nosotrosimgdos {
             height: 15rem;
-            background-image: url(../../assets/manojoverduras.jpg);
+            background-image: url(../assets/manojoverduras.jpg);
             background-position: center;
             background-size: cover;
         }
@@ -64,5 +64,18 @@ main {
     #productos-aviso {
         margin-top: 1rem;
         align-items: center;
+    }
+    #productos-aviso{
+        div{
+            a{
+                color: $color2;
+                background-color: $colorboton;
+                &:hover{
+                    color: $colorboton;
+                    background-color: $color2;  
+                }
+
+            }
+        }
     }
 }
